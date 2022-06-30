@@ -1,0 +1,2 @@
+# Improving Front-End Skills via Copywork
+The best way to perfect something is do it a LOT. This repo is my commitment to improving my front-end development skills by creating the designs outlined in the project library in https://www.frontendpractice.com/projects.
