@@ -1,0 +1,16 @@
+// Colours
+$yellow: #fbffa7;
+$red: #ff764d;
+$pastel_blue: #b1c5ff;
+$purple: #d5b3ff;
+$green: #b6ffc0;
+$blue: #0000ff;
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaPTMedium.otf') format('opentype');
+}
+
+body{
+    font-family: 'Futura', 'Arial';
+}
