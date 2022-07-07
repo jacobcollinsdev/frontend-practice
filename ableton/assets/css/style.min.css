@@ -1,2 +1,2 @@
-@font-face{font-family:'Futura';src:url("../fonts/FuturaPTMedium.otf") format("opentype")}body{font-family:'Futura';color:blue}
+@font-face{font-family:'Futura';src:url("../fonts/FuturaPTMedium.otf") format("opentype")}body{font-family:'Futura';color:blue}header #primary_nav{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}header #primary_nav ul{list-style-type:none;display:-webkit-box;display:-ms-flexbox;display:flex;width:100%}header #primary_nav ul li{margin:0 0.5rem}header #primary_nav ul li:nth-child(8){margin-left:auto}header #primary_nav ul li a{text-decoration:none}
 /*# sourceMappingURL=style.min.css.map */
