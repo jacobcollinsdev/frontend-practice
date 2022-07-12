@@ -11,6 +11,11 @@ $blue: #0000ff;
     src: url('../fonts/FuturaPTMedium.otf') format('opentype');
 }
 
+@font-face {
+    font-family: 'Futura Light';
+    src: url('../fonts/FuturaPTLight.otf') format('opentype');
+}
+
 body{
     font-family: 'Futura';
     margin: 0;
@@ -19,12 +24,14 @@ body{
     // color: $blue;    
 }
 
-.text-regular{
-    font-size: 16px;
-}
+.text-regular{font-size: 16px;}
+.text-medium{font-size: 20px;}
+.text-large{font-size: 30px;}
 
 .text-orange{color: $orange;}
 .text-blue{color: $blue;}
+
+.font-light{font-family:'Futura Light'}
 
 header{
     .logo{
@@ -95,6 +102,18 @@ main{
             transform: translate(-50%, -50%);
             max-width: 430px;
             width: 100%;
+        }
+    }
+
+    #about{
+        margin-bottom: 8.33vw;
+        .container{
+            width: 86ch;
+            margin: 0 auto;
+            // max-width: 50vw;
+            span{
+                color: $blue;
+            }
         }
     }
 }
