@@ -116,4 +116,37 @@ main{
             }
         }
     }
+
+    #collage{
+        padding: 8.33vw 0;
+        position: relative;
+        .yellow-bg{
+            width:58.3333vw;
+            height:58.3333vw;
+            background-color: $yellow;
+            position: absolute;
+            top:0;
+            right: 0;
+            z-index:-1;
+        }
+        .collage-img{
+            background-position: 50% 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .photo-1{
+            background-image: url('../img/photo-1.jpg');
+            width: 41.667vw;
+            height: 41.667vw;
+            margin-left: 8.33vw;
+        }
+        .photo-2{
+            background-image: url('../img/photo-2.jpg');
+            width: 33.33vw;
+            height: 25vw;
+            margin-left: 8.33vw;
+        }
+    }
 }
